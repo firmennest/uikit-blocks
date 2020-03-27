@@ -1,0 +1,15 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+// Colors.
+$black: #000;
+$white: #fff;
+$grey: #ddd;
+
+.wp-block{
+  max-width: 100%;
+}

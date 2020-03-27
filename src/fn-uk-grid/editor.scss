@@ -1,0 +1,23 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.uk-grid  {
+  border: 3px solid $grey;
+  color: $black;
+  margin: 0 auto;
+  padding: 1rem;
+
+  > *{
+    .editor-inner-blocks{
+      min-height: 50px;
+    }
+  }
+}
+
+.components-range-control .components-base-control__label{
+  width: auto;
+}

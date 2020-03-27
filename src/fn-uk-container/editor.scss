@@ -1,0 +1,13 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .uk-container  {
+   background-color: rgba(0, 0, 0, 0.05);
+   margin: 0 auto;
+   padding: 5rem;
+   max-width: 800px;
+ }
